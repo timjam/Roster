@@ -4,3 +4,7 @@
 [submodule "RosterClient"]
 	path = RosterClient
 	url = ./RosterClient/
+
+[submodule "RosterServer"]
+	path = RosterServer
+	url = ./RosterServer/
