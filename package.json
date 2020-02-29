@@ -1,0 +1,33 @@
+{
+  "name": "roster",
+  "version": "0.1.1",
+  "description": "Service for event creation, management and announcing who is joining event",
+  "scripts": {
+    "start": "concurrently \"cd RosterServer && npm run watch\" \"cd rosterclient && npm run start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timjam/Roster.git"
+  },
+  "keywords": [
+    "event",
+    "service",
+    "web-application",
+    "react",
+    "react-native",
+    "express",
+    "nodejs",
+    "node-postgres",
+    "typescript"
+  ],
+  "author": "Timo Mätäsaho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timjam/Roster/issues"
+  },
+  "homepage": "https://github.com/timjam/Roster#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
